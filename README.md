@@ -1,4 +1,4 @@
-# tv_grab_file for Synology NAS devices
+# tv_grab_file for Synology NAS
 This is a modified version of <https://code.google.com/p/tv-grab-file/> for use on Synology NAS devices.
 
 ## What it is
@@ -8,11 +8,9 @@ Quoting the original Google Code repository:
 
 > _Simple XMLTV grabber to "grab" a xmltv formatted file_
 > 
-> This XMLTV "grabber" is used to provide a way of loading a valid XMTV file into
-> any application that supports the various XMLTV grabbers.
-> 
-> It will respond to a small number of XMLTV options, just enough to pass as a valid
-> XMLTV grabber, and it will just pass a valid XMLTV file to the requesting program.
+> This XMLTV "grabber" is used to provide a way of loading a valid XMTV file into any application that supports the various XMLTV grabbers.
+>
+> It will respond to a small number of XMLTV options, just enough to pass as a valid XMLTV grabber, and it will just pass a valid XMLTV file to the requesting program.
 
 ## Why the modifications were necessary
 The original source was written for Bash, but Synology's operating system (DSM) is an embedded Linux based on BusyBox and the built-in shell (ash) differs in terms of syntax and functions.
