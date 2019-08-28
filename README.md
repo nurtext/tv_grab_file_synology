@@ -1,6 +1,10 @@
 # tv_grab_file for Synology NAS
 This is a modified version of <https://code.google.com/p/tv-grab-file/> for use on Synology NAS devices.
 
+## WARNING ## 
+
+This project has been abandoned and no further support will be given. 
+
 ## What it is
 tv_grab_file can be used to pull any XMLTV source and feed your XMLTV enabled PVR backend (e.g. Tvheadend) with EPG data.
 
